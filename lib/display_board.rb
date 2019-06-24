@@ -8,7 +8,7 @@ puts "#{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts "#{board[6]} | #{board[7]} | #{board[8]} "
 end
-output = capture_puts{display_board(board)}
+
 def display_board(board)
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 puts "#{board[0]} | #{board[1]} | #{board[2]} "
